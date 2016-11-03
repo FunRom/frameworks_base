@@ -3608,12 +3608,6 @@ public final class Settings {
          * @hide
          */
         public static final String DISABLE_DASHBOARD_CONDITIONS = "disable_dashboard_conditions";
-
-          /**
-          * Whether to show the negociated charger current in the lockscreen
-          * @hide
-          */
-         public static final String LOCKSCREEN_CHARGING_CURRENT = "lockscreen_charging_current";
  
         /**
          * Network traffic indicator, goes from least to greatest significant bitwise
@@ -3667,6 +3661,12 @@ public final class Settings {
          * it to PRIVATE_SETTINGS below. Also add a validator that can validate
          * the setting value. See an example above.
          */
+
+        /**
+         * Whether to show the battery info on the lockscreen while charging
+         * @hide
+         */
+        public static final String LOCKSCREEN_BATTERY_INFO = "lockscreen_battery_info";
 
         /**
          * Show or hide clock
