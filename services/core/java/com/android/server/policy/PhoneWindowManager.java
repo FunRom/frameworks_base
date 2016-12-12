@@ -2413,6 +2413,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                     res.getDimensionPixelSize(
                             com.android.internal.R.dimen.navigation_bar_width_car_mode);
         }
+      }
 
     /** {@inheritDoc} */
     @Override
