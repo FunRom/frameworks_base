@@ -2023,6 +2023,9 @@ message MetricsEvent {
     // 4: Gesture performed is Double Tap
     ACTION_AMBIENT_GESTURE = 411;
 
+    // Fun Interface
+    FUN = 412;
+
     // ---- End N Constants, all N constants go above this line ----
 
     // ------- Begin N App Disambig Shade -----
