@@ -2025,6 +2025,7 @@ message MetricsEvent {
 
     // Fun Interface
     FUN = 412;
+    LOCKSCREEN_WEATHER_SETTINGS = 998;
 
     // ---- End N Constants, all N constants go above this line ----
 
